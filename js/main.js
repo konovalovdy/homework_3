@@ -157,15 +157,7 @@ class Cart {
     openCart () {
             this.render();
             const container = document.querySelector(".cart");
-            if (container.style.display === "none") {
-                container.style.display = "flex";
-                return;
-            }
-            if (container.style.display === "flex") {
-                container.style.display = "none";
-                return;   
-            }
-            
+            container.classList.toggle("cart_invisible");           
         }
     }
 

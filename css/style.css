@@ -41,6 +41,9 @@ button{
     z-index: 3;
     color: #2f2a2d;
 }
+.cart_invisible {
+    display: none;
+}
 .cart_label {
     width: 25px;
     height: 25px;
